@@ -1,0 +1,164 @@
+//Import Bootstrap
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+//Import Style
+@import './style.scss';
+
+//Import Icons
+@import '../css/materialdesignicons.min.css';
+
+//Import Unicon Icon
+@import url('https://unicons.iconscout.com/release/v4.0.0/css/line.css');
+
+//Import Slick Slider Style
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
+// React Modal Video
+@import 'node_modules/react-modal-video/scss/modal-video.scss';
+
+// Testimonial Component Css
+
+.custom-indicator {
+  top: -100px;
+}
+
+.custom-indicator li {
+  width: 85px;
+  height: 85px;
+  opacity: 0.4;
+}
+
+.custom-indicator li.slick-active {
+  width: 85px;
+  height: 85px;
+  opacity: 1;
+  border: 3px solid #0f3b76;
+  border-radius: 50%;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+
+.slick-prev {
+  left: 0px;
+  z-index: 1;
+}
+
+.slick-next {
+  right: 0px;
+  z-index: 1;
+}
+
+// Sixth Layout Home Component Css
+
+.Layimg {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.layslide {
+  transform: scale(0.7);
+  transition: transform 300ms;
+  opacity: 0.7;
+}
+
+.activeLaySlide {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+
+.slick-prev {
+  left: 0px;
+  z-index: 1;
+}
+
+.slick-next {
+  right: 0px;
+  z-index: 1;
+}
+
+.descriptionI {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.descriptionIcons {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.descriptionIcons__IconText > h2 {
+  font-weight: 800;
+  font-size: 20px;
+  margin-right: 20px;
+  padding-bottom: 0;
+}
+
+.descriptionIcons__IconText > p {
+  padding-top: 0;
+}
+
+.descriptionIcons__Icon {
+  color: $primary;
+  font-size: 70px !important;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.descriptionIcons__IconText {
+  display: flex;
+  flex-direction: column;
+}
+
+.descriptiontext {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  white-space: pre-wrap;
+}
+
+.OptionInscriptionFormation {
+  display: none;
+}
+
+.audaciabutton {
+  color: white;
+}
+
+.textInBold {
+  font-weight: 1000;
+}
+
+.audacia__Button:hover {
+  color: white !important;
+}
+
+.modal__submit {
+  padding-bottom: 15px;
+}
+
+.audaciaclass {
+  color: $audaciablue;
+}
+
+.FormationCard__title {
+  font-size: 1.4rem !important;
+}
+
+.Modal {
+  padding: 10px;
+}
+
+.Modal__header {
+  padding: 15px;
+}
