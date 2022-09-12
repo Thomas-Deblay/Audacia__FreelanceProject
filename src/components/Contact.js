@@ -37,7 +37,7 @@ const ContactData = [
     isChildItem: ['Phone: 0696000000'],
   },
   {
-    title: 'Contacte',
+    title: 'Contact',
     iconClass: 'mdi mdi-email text-primary h4',
     isChildItem: ['www.audacia.com', 'mbl.audacia@gmail.com'],
   },
@@ -56,7 +56,7 @@ const Contact = () => {
           <Row className="justify-content-center">
             <Col lg={7}>
               <div className="text-center mb-4">
-                <p className="text-uppercase text-muted mb-2">Contacte</p>
+                <p className="text-uppercase text-muted mb-2">Contact</p>
                 <h3 className="text-uppercase">Restons en contact</h3>
                 <div className="title-border mt-3"></div>
                 <p className="title-desc text-muted mt-3">

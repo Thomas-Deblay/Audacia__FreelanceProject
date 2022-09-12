@@ -111,7 +111,7 @@ const Section = () => {
             <div className="text-center">
               <h6 className="sub-title mb-3"></h6>
               <h1 className="mb-4 audaciatitre">
-                AUDACIA <br /> BUSINESS SCHOOL
+                BIENVENUE A <br /> AUDACIA <br /> BUSINESS SCHOOL
               </h1>
               {/* <p className="text-muted fs-17">
                 S'engager ensemble pour reussir

@@ -8,12 +8,9 @@ import Counter from '../components/Counter';
 import CTA from '../components/CTA';
 import Footer from '../Layout/Footer';
 import FooterAlt from '../Layout/FooterAlt';
-import Portfolio from '../components/Portfolio';
-import Pricing from '../components/Pricing';
+
 import Process from '../components/Process';
-import Services from '../components/Services';
-import Team from '../components/Team';
-import Testimonial from '../components/Testimonial';
+
 import Layout6 from '../pages/Layout6/Layout6';
 
 const Layout = () => {

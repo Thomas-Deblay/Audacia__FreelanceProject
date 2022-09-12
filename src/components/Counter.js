@@ -2,7 +2,7 @@ import React from 'react';
 import CountUp from 'react-countup';
 import { Col, Container, Row } from 'reactstrap';
 
-import achivements from '../assets/images/achivements.jpg';
+// import achivements from '../assets/images/achivements.jpg';
 
 const FeatureCard = (props) => {
   return (

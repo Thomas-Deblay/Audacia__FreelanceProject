@@ -1,5 +1,5 @@
 import React from 'react';
-import routes from './allRoutes';
+// import routes from './allRoutes';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import Layout from '../Layout/Index';
 import Formation from '../components/formations/Formation';

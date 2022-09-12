@@ -2,14 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Col, Row } from 'reactstrap';
 
-import img1 from '../assets/images/blog/blog-1.jpg';
-import img2 from '../assets/images/blog/blog--2.jpg';
-import img3 from '../assets/images/blog/blog-3.jpg';
-import img4 from '../assets/images/blog/blog-2.jpg';
+import img1 from '../assets/images/blog/ressourceshumaines.jpg';
+import img2 from '../assets/images/blog/creervotreentreprise.jpg';
+import img3 from '../assets/images/blog/structureeconomiesociale.jpg';
+import img4 from '../assets/images/blog/international.jpg';
 
-import img5 from '../assets/images/users/img-5.jpg';
-import img6 from '../assets/images/users/img-6.jpg';
-import img7 from '../assets/images/users/img-7.jpg';
+import img5 from '../assets/images/blog/managercentredeprofit.jpg';
+import img6 from '../assets/images/blog/financementeuro.jpg';
+import img7 from '../assets/images/blog/toeic.jpg';
 
 // BlogCard
 
@@ -68,7 +68,7 @@ const BlogCard = (props) => {
 const BlogData = [
   {
     key: 'Assistantressrouceshumaine',
-    imgsrc1: img3,
+    imgsrc1: img1,
     title: 'Assitant(e) Ressources Humaines',
     subtitle: 'Titre professionnel niveau 5',
     imgsrc2: img5,
@@ -95,7 +95,7 @@ const BlogData = [
   },
   {
     key: 'International',
-    imgsrc1: img1,
+    imgsrc1: img4,
     title: 'Mobilité Internationale',
     subtitle: 'Développez vos compétences grâce à Erasmus Pro',
     imgsrc2: img7,
@@ -104,7 +104,7 @@ const BlogData = [
   },
   {
     key: 'managerdecentredeprofit',
-    imgsrc1: img4,
+    imgsrc1: img5,
     title: 'Manager de Centre de Profit',
     subtitle: 'Apprenez à animer une structure économique',
     imgsrc2: img7,
@@ -113,7 +113,7 @@ const BlogData = [
   },
   {
     key: 'passerellesversfinanceseuro',
-    imgsrc1: img3,
+    imgsrc1: img6,
     title: 'Passerelles vers les Financements Européens',
     subtitle:
       'Apprenez à construire et suivre vos projets Européens (FSE,FEDER...)',
@@ -123,7 +123,7 @@ const BlogData = [
   },
   {
     key: 'TOEIC',
-    imgsrc1: img3,
+    imgsrc1: img7,
     title: 'TOEIC',
     subtitle: 'Préparez votre examen dans les meilleurs conditions',
     imgsrc2: img7,

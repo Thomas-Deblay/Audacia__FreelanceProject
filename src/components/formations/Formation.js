@@ -4,21 +4,13 @@ import FormationNav from '../../Layout/FormationNav';
 import Section from './Section';
 import Description from './Description';
 
-import img1 from '../../assets/images/blog/blog-1.jpg';
-import img2 from '../../assets/images/blog/blog-2.jpg';
-import img3 from '../../assets/images/blog/blog-3.jpg';
-
-import img5 from '../../assets/images/users/img-5.jpg';
-import img6 from '../../assets/images/users/img-6.jpg';
-import img7 from '../../assets/images/users/img-7.jpg';
-
 const BlogData = {
   Assistantressrouceshumaine: {
     key: 'Manager',
-    imgsrc1: img3,
+
     title: 'Assitant(e) Ressources Humaines',
     subtitle: 'Titre professionnel niveau 5',
-    imgsrc2: img5,
+
     name: 'Formateur',
     time: '400 heures',
     description: {
@@ -45,10 +37,10 @@ const BlogData = {
 
   Creervotreentreprise: {
     key: 'Creervotreentreprise',
-    imgsrc1: img2,
+
     title: 'Créer votre entreprise',
     subtitle: 'Formation certifiante',
-    imgsrc2: img6,
+
     name: 'Formateur',
     time: '70 heures',
     description: {
@@ -73,10 +65,10 @@ const BlogData = {
   },
   directeurdetablissementecosociale: {
     key: 'directeurdetablissementecosociale',
-    imgsrc1: img3,
+
     title: 'Directeur d’établissement de l’Economie Sociale',
     subtitle: 'Titre professionnel niveau 6',
-    imgsrc2: img7,
+
     name: 'Formateur',
     time: '105 heures',
     description: {
@@ -102,10 +94,10 @@ const BlogData = {
   },
   International: {
     key: 'International',
-    imgsrc1: img1,
+
     title: 'Mobilité Internationale',
     subtitle: 'Développez vos compétences grâce à Erasmus Pro',
-    imgsrc2: img7,
+
     name: 'Formateur',
     time: '105 heures',
     description: {
@@ -131,10 +123,10 @@ const BlogData = {
   },
   managerdecentredeprofit: {
     key: 'managerdecentredeprofit',
-    imgsrc1: img3,
+
     title: 'Manager de Centre de Profit',
     subtitle: 'Apprenez à animer une structure économique',
-    imgsrc2: img7,
+
     name: 'Formateur',
     time: '105 heures',
     description: {
@@ -160,10 +152,10 @@ const BlogData = {
   },
   passerellesversfinanceseuro: {
     key: 'passerellesversfinanceseuro',
-    imgsrc1: img3,
+
     title: 'Passerelles vers les Financements Européens',
     subtitle: 'Passerelles vers les Financements Européens',
-    imgsrc2: img7,
+
     name: 'Formateur',
     time: '105 heures',
     description: {
@@ -189,10 +181,10 @@ const BlogData = {
   },
   TOEIC: {
     key: 'TOEIC',
-    imgsrc1: img3,
+
     title: 'TOEIC',
     subtitle: 'Préparez votre examen dans les meilleurs conditions',
-    imgsrc2: img7,
+
     name: 'Formateur',
     time: '105 heures',
     description: {
