@@ -50,7 +50,7 @@ const CTA = () => {
           Formulaire d'inscription
         </ModalHeader>
         <ModalBody>
-          <form action="https://formspree.io/f/xeqdezwy" method="POST">
+          <form action="https://formspree.io/f/xrgdpqql" method="POST">
             <div className="Modal">
               <div className="mb-4 position-relative">
                 <label htmlFor="Nom" className="form-label">

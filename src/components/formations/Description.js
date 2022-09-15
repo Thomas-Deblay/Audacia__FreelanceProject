@@ -23,7 +23,7 @@ const Description = ({ text, icon }) => {
               <div className="header-title  mb-5">
                 <h3>A Propos de la formation</h3>
                 <div className="descriptiontext">
-                  <h6>Objectif</h6>
+                  <h6>Objectifs</h6>
                   <p className="title-desc text-muted mt-3">{text[0]}</p>
                 </div>
                 <div className="descriptiontext">

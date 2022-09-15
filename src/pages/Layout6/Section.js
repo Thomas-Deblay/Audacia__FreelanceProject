@@ -14,6 +14,7 @@ import img1 from '../../assets/images/home/hp1-ouverture.png';
 import img2 from '../../assets/images/home/hp-2.png';
 import img3 from '../../assets/images/home/hp-3.png';
 import img4 from '../../assets/images/home/hp-4.png';
+import img5 from '../../assets/images/home/hp-5.png';
 
 // Feature Card
 
@@ -57,7 +58,7 @@ const FeatureData = [
 
 //............
 
-const images = [img1, img2, img3, img4];
+const images = [img1, img2, img3, img4, img5];
 
 const Section = () => {
   const [modal, setModal] = useState(false);
@@ -167,7 +168,7 @@ const Section = () => {
           Formulaire d'inscription
         </ModalHeader>
         <ModalBody>
-          <form action="https://formspree.io/f/xeqdezwy" method="POST">
+          <form action="https://formspree.io/f/xrgdpqql" method="POST">
             <div className="Modal">
               <div className="mb-4 position-relative">
                 <label htmlFor="Nom" className="form-label">

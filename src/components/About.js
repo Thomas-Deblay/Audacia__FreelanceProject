@@ -47,6 +47,16 @@ const About = () => {
     <React.Fragment>
       <section className="section bg-light" id="Apropos">
         <Container>
+          <Row className="justify-content-center">
+            <Col lg={7}>
+              <div className="header-title text-center mb-5">
+                <p className="text-uppercase text-muted mb-2">A Propos</p>
+                <h1>A propos de nous</h1>
+                <div className="title-border mt-3"></div>
+                <p className="title-desc text-muted mt-3"></p>
+              </div>
+            </Col>
+          </Row>
           <Row className="align-items-center g-3 g-lg-0">
             <Col className="about-img" lg={8}>
               <img

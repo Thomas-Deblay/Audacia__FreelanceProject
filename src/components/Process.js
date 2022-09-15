@@ -43,7 +43,7 @@ const ProcessData = [
   {
     number: '04',
     step: 'Vos Perspectives',
-    caption: "Vos perspectives d'avenir en sorti de formation",
+    caption: "Vos perspectives d'avenir en sortie de formation",
   },
 ];
 

@@ -88,7 +88,7 @@ const Contact = () => {
             <Col lg={9}>
               <div className="custom-form">
                 <Form
-                  action="https://formspree.io/f/mzbwdvwl"
+                  action="https://formspree.io/f/xwkzloob"
                   method="POST"
                   name="ContactForm"
                 >

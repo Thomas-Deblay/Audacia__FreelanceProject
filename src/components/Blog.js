@@ -69,7 +69,7 @@ const BlogData = [
   {
     key: 'Assistantressrouceshumaine',
     imgsrc1: img1,
-    title: 'Assitant(e) Ressources Humaines',
+    title: 'Assistant(e) Ressources Humaines',
     subtitle: 'Titre professionnel niveau 5',
     imgsrc2: img5,
     name: 'Formateur',

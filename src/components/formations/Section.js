@@ -28,7 +28,7 @@ const Section = ({ title, subtitle }) => {
                     </p> */}
                     <h4>Formulaire d'inscription</h4>
                   </div>
-                  <form action="https://formspree.io/f/xeqdezwy" method="POST">
+                  <form action="https://formspree.io/f/xrgdpqql" method="POST">
                     <div className="mb-4 position-relative">
                       <label htmlFor="Nom" className="form-label">
                         Nom*

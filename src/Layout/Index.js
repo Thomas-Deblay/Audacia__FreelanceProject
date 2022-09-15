@@ -21,7 +21,7 @@ const Layout = () => {
       <Blog />
       <Process />
       <About />
-      <Counter />
+      {/* <Counter /> */}
       {/* <Testimonial /> */}
       {/* <Team />
       <Portfolio />*/}

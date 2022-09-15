@@ -8,15 +8,15 @@ const BlogData = {
   Assistantressrouceshumaine: {
     key: 'Manager',
 
-    title: 'Assitant(e) Ressources Humaines',
+    title: 'Assistant(e) Ressources Humaines',
     subtitle: 'Titre professionnel niveau 5',
 
     name: 'Formateur',
     time: '400 heures',
     description: {
       text: [
-        " Etre capable de : \n - Assurer le suivi des dossiers individuels, établit les déclarations obligatoires, préparer les éléments de paie, traiter des données statistiques.\n- Participer aux processus de recrutement, intervenir sur tout ou partie des étapes de recrutement depuis l'analyse du poste jusqu'à l'intégration du salarié.\n- Participer à l'élaboration du plan de formation et en assurer le suivi administratif.\n- Favoriser les relations sociales au quotidien et alerter son hiérarchique sur des situations potentiellement conflictuelles. ",
-        'Demandeurs d’emploi, salariés, professionnel en reconversion.',
+        " Etre capable de : \n - Assurer le suivi des dossiers individuels, établit les déclarations obligatoires, préparer les éléments de paie, traiter des données statistiques.\n- Participer aux processus de recrutement, intervenir sur tout ou partie des étapes de recrutement depuis l'analyse du poste jusqu'à l'intégration du salarié.\n- Participer à l'élaboration du plan de formation et en assurer le suivi administratif.\n- Favoriser les relations sociales au quotidien et alerter son supérieur hiérarchique sur des situations potentiellement conflictuelles. ",
+        'Demandeurs d’emplois, salariés, professionnel en reconversion.',
         '- Bacheliers, motivés par la gestion des Ressources Humaines ou\n- demandeur d’emploi ou salariés de niveau bac ayant 2 ans d’expérience dans le domaine des ressources humaines.\n- Motivé par les langues étrangères, anglais : niveau B1',
       ],
       icon: {
@@ -73,15 +73,15 @@ const BlogData = {
     time: '105 heures',
     description: {
       text: [
-        " Etre capable de : \n - Assurer le suivi des dossiers individuels, établit les déclarations obligatoires, préparer les éléments de paie, traiter des données statistiques.\n- Participer aux processus de recrutement, intervenir sur tout ou partie des étapes de recrutement depuis l'analyse du poste jusqu'à l'intégration du salarié.\n- Participer à l'élaboration du plan de formation et en assurer le suivi administratif.\n- Favoriser les relations sociales au quotidien et alerter son hiérarchique sur des situations potentiellement conflictuelles. ",
+        "Assurer la gestion et la direction d'association, de coopérative, de mutuelle, de fondation ou de toute structure inscrivant son action dans le cadre de l'intérêt général et de l'utilité sociale\nAssurer le management des ressources humaines, mettre en œuvre le projet d'établissement et tout projet d'activité, gérer les moyens économiques, financiers et logistiques, et contribuer à l'évolution des choix stratégiques et d'organisation. ",
         'Demandeurs d’emploi, salariés, professionnel en reconversion.',
-        '- Bacheliers, motivés par la gestion des Ressources Humaines ou\n- demandeur d’emploi ou salariés de niveau bac ayant 2 ans d’expérience dans le domaine des ressources humaines.\n- Motivé par les langues étrangères, anglais : niveau B1',
+        '- BAC + 2, motivés par la gestion d’entreprise et l’économie sociale et solidaire\n- demandeur d’emploi ou salariés de niveau bac ayant 3 ans d’expérience dans la gestion de structure liée à ce domaine.',
       ],
       icon: {
         icon1: ['Type de formation', 'diplômante, certifiante RNCP 15263'],
         icon2: ['Filière', 'gestion d’entreprise'],
         icon3: ['Niveau de sortie de la formation', 'niveau 6'],
-        icon4: ['Durée de la formation', '800heures'],
+        icon4: ['Durée de la formation', '800 heures'],
         icon5: ['Coût de la Formation', '9 900 euros'],
         icon6: ['Prochaines sessions', 'janvier 2023'],
 
@@ -102,9 +102,9 @@ const BlogData = {
     time: '105 heures',
     description: {
       text: [
-        " Etre capable de : \n - Assurer le suivi des dossiers individuels, établit les déclarations obligatoires, préparer les éléments de paie, traiter des données statistiques.\n- Participer aux processus de recrutement, intervenir sur tout ou partie des étapes de recrutement depuis l'analyse du poste jusqu'à l'intégration du salarié.\n- Participer à l'élaboration du plan de formation et en assurer le suivi administratif.\n- Favoriser les relations sociales au quotidien et alerter son hiérarchique sur des situations potentiellement conflictuelles. ",
-        'Demandeurs d’emploi, salariés, professionnel en reconversion.',
-        '- Bacheliers, motivés par la gestion des Ressources Humaines ou\n- demandeur d’emploi ou salariés de niveau bac ayant 2 ans d’expérience dans le domaine des ressources humaines.\n- Motivé par les langues étrangères, anglais : niveau B1',
+        'Permettre à nos étudiants d’approfondir leurs compétences professionnelles et linguistiques au sein d’entreprises étrangères, par la mobilité Européenne ou internationale, grâce au programme ERASMUS. ',
+        'Les Etudiants diplômés d’AUDACIA BUSINESS SCHOOL ou d’autres écoles.',
+        '- Pas de prérequis pour nos étudiants diplômés\n- Recrutement sur dossiers et entretiens pour les étudiants extérieurs',
       ],
       icon: {
         icon1: ['Type de formation', 'Stage en entreprise à l’étranger'],
