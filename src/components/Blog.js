@@ -69,7 +69,7 @@ const BlogData = [
   {
     key: 'Assistantressrouceshumaine',
     imgsrc1: img1,
-    title: 'Assistant(e) Ressources Humaines',
+    title: 'Gérer les ressources humaines',
     subtitle: 'Titre professionnel niveau 5',
     imgsrc2: img5,
     name: 'Formateur',
@@ -87,7 +87,8 @@ const BlogData = [
   {
     key: 'directeurdetablissementecosociale',
     imgsrc1: img3,
-    title: 'Directeur d’établissement de l’Economie Sociale',
+    title:
+      "Devenez Responsable de structure de l'Economie Sociale er Solidaire ",
     subtitle: 'Titre professionnel niveau 6',
     imgsrc2: img7,
     name: 'Formateur',
@@ -96,7 +97,7 @@ const BlogData = [
   {
     key: 'International',
     imgsrc1: img4,
-    title: 'Mobilité Internationale',
+    title: 'Approfondissez vos compétences professionnelles grâce à Erasmus',
     subtitle: 'Développez vos compétences grâce à Erasmus Pro',
     imgsrc2: img7,
     name: 'Formateur',
@@ -105,16 +106,16 @@ const BlogData = [
   {
     key: 'managerdecentredeprofit',
     imgsrc1: img5,
-    title: 'Manager de Centre de Profit',
+    title: 'Développez vos compétences de Manager ',
     subtitle: 'Apprenez à animer une structure économique',
     imgsrc2: img7,
     name: 'Formateur',
     time: '805 heures',
   },
   {
-    key: 'passerellesversfinanceseuro',
+    key: 'passerelleversfinanceseuro',
     imgsrc1: img6,
-    title: 'Passerelles vers les Financements Européens',
+    title: 'Obtenez des financements Européens',
     subtitle:
       'Apprenez à construire et suivre vos projets Européens (FSE,FEDER...)',
     imgsrc2: img7,
@@ -124,8 +125,8 @@ const BlogData = [
   {
     key: 'TOEIC',
     imgsrc1: img7,
-    title: 'TOEIC',
-    subtitle: 'Préparez votre examen dans les meilleurs conditions',
+    title: 'Obtenez  le TOEIC dans le cadre de votre formation',
+    subtitle: 'Préparez votre examen dans les meilleures conditions',
     imgsrc2: img7,
     name: 'Formateur',
     time: '105 heures',

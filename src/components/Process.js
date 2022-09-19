@@ -27,7 +27,7 @@ const ProcessData = [
   {
     number: '01',
     step: 'Inscription',
-    caption: "Renvoie du formulaire d'inscription par mail",
+    caption: "Renvoi du formulaire d'inscription par mail",
   },
   {
     number: '02',

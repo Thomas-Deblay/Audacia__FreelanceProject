@@ -42,9 +42,9 @@ const ContactData = [
     isChildItem: ['www.audacia.com', 'mbl.audacia@gmail.com'],
   },
   {
-    title: "Heure d'Ouverture",
+    title: "Horaires d'Ouverture",
     iconClass: 'mdi mdi-calendar-clock text-primary h4',
-    isChildItem: ['Lundi-Vendredi: 9:00-18:00', 'Samedi-Dimanche: Fermé'],
+    isChildItem: ['Lundi-Vendredi: 8:00-17:00', 'Samedi-Dimanche: Fermé'],
   },
 ];
 
@@ -134,7 +134,7 @@ const Contact = () => {
                       <FormGroup>
                         <div className="mb-3">
                           <Label for="number" className="form-label">
-                            Télephone (Optionel) :
+                            Télephone :
                           </Label>
                           <Input
                             type="number"

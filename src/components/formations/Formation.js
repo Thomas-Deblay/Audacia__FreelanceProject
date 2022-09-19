@@ -16,8 +16,8 @@ const BlogData = {
     description: {
       text: [
         " Etre capable de : \n - Assurer le suivi des dossiers individuels, établit les déclarations obligatoires, préparer les éléments de paie, traiter des données statistiques.\n- Participer aux processus de recrutement, intervenir sur tout ou partie des étapes de recrutement depuis l'analyse du poste jusqu'à l'intégration du salarié.\n- Participer à l'élaboration du plan de formation et en assurer le suivi administratif.\n- Favoriser les relations sociales au quotidien et alerter son supérieur hiérarchique sur des situations potentiellement conflictuelles. ",
-        'Demandeurs d’emplois, salariés, professionnel en reconversion.',
-        '- Bacheliers, motivés par la gestion des Ressources Humaines ou\n- demandeur d’emploi ou salariés de niveau bac ayant 2 ans d’expérience dans le domaine des ressources humaines.\n- Motivé par les langues étrangères, anglais : niveau B1',
+        'Demandeurs d’emploi, salariés, professionnel en reconversion.',
+        '- Bacheliers, motivés par la gestion des Ressources Humaines ou\n- demandeurs d’emploi ou salariés de niveau bac ayant 2 ans d’expérience dans le domaine des ressources humaines.\n- Motivé par les langues étrangères, anglais : niveau B1',
       ],
       icon: {
         icon1: ['Type de formation', 'diplomante / certifiante RNCP 6161'],
@@ -75,7 +75,7 @@ const BlogData = {
       text: [
         "Assurer la gestion et la direction d'association, de coopérative, de mutuelle, de fondation ou de toute structure inscrivant son action dans le cadre de l'intérêt général et de l'utilité sociale\nAssurer le management des ressources humaines, mettre en œuvre le projet d'établissement et tout projet d'activité, gérer les moyens économiques, financiers et logistiques, et contribuer à l'évolution des choix stratégiques et d'organisation. ",
         'Demandeurs d’emploi, salariés, professionnel en reconversion.',
-        '- BAC + 2, motivés par la gestion d’entreprise et l’économie sociale et solidaire\n- demandeur d’emploi ou salariés de niveau bac ayant 3 ans d’expérience dans la gestion de structure liée à ce domaine.',
+        '- BAC + 2, motivés par la gestion d’entreprise et l’économie sociale et solidaire\n- demandeurs d’emploi ou salariés de niveau bac ayant 3 ans d’expérience dans la gestion de structure liée à ce domaine.',
       ],
       icon: {
         icon1: ['Type de formation', 'diplômante, certifiante RNCP 15263'],
@@ -133,7 +133,7 @@ const BlogData = {
       text: [
         ' Animer une structure économique dans ses dimensions humaine, commerciale, production et financière et organiser le fonctionnement de la structure en conformité avec les objectifs qui lui sont donnés. ',
         'Demandeurs d’emploi, salariés, professionnel en reconversion.',
-        '- Bacheliers, motivés par la gestion d’entreprise ou\n- demandeur d’emploi ou salariés de niveau bac ayant 2 ans d’expérience dans ce domaine.\n- Motivé par les langues étrangères, anglais : niveau B1',
+        '- Bacheliers, motivés par la gestion d’entreprise ou\n- demandeurs d’emploi ou salariés de niveau bac ayant 2 ans d’expérience dans ce domaine.\n- Motivé par les langues étrangères, anglais : niveau B1',
       ],
       icon: {
         icon1: ['Type de formation', 'diplômante, certifiante RNCP 35646'],
@@ -150,11 +150,11 @@ const BlogData = {
       },
     },
   },
-  passerellesversfinanceseuro: {
+  passerelleversfinanceseuro: {
     key: 'passerellesversfinanceseuro',
 
-    title: 'Passerelles vers les Financements Européens',
-    subtitle: 'Passerelles vers les Financements Européens',
+    title: 'Passerelle vers les Financements Européens',
+    subtitle: 'Passerelle vers les Financements Européens',
 
     name: 'Formateur',
     time: '105 heures',

@@ -99,6 +99,8 @@ const Section = () => {
     centerPadding: '0px',
     slidesToShow: 3,
     speed: 300,
+    autoplay: true,
+    autoplaySpeed: 3000,
     prevArrow: <PreviousBtn />,
     nextArrow: <NextBtn />,
     beforeChange: (current, next) => setImageIndex(next),
