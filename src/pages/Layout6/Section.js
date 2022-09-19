@@ -10,11 +10,11 @@ import {
   ModalBody,
 } from 'reactstrap';
 
-import img1 from '../../assets/images/home/hp1-ouverture.png';
-import img2 from '../../assets/images/home/hp-2.png';
-import img3 from '../../assets/images/home/hp-3.png';
-import img4 from '../../assets/images/home/hp-4.png';
-import img5 from '../../assets/images/home/hp-5.png';
+import img1 from '../../assets/images/home/caroussel-1.png';
+import img2 from '../../assets/images/home/caroussel-2.png';
+import img3 from '../../assets/images/home/caroussel-3.png';
+import img4 from '../../assets/images/home/caroussel-4.png';
+import img5 from '../../assets/images/home/caroussel-5.png';
 
 // Feature Card
 
@@ -97,10 +97,11 @@ const Section = () => {
     centerMode: true,
     infinite: true,
     centerPadding: '0px',
-    slidesToShow: 3,
-    speed: 300,
+    slidesToShow: 1,
+    speed: 500,
+    dots: true,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 5000,
     prevArrow: <PreviousBtn />,
     nextArrow: <NextBtn />,
     beforeChange: (current, next) => setImageIndex(next),
