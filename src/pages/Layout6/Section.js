@@ -136,10 +136,10 @@ const Section = () => {
         </Row>
 
         {/* Swiper Start */}
-        <Row className="mt-4 pt-3">
+        <Row className="pt-3">
           <Col lg={12}>
             <div className="swiper-container homeslider pb-5">
-              <div className="swiper-wrapper mt-4">
+              <div className="swiper-wrapper">
                 <Slider {...settings}>
                   {images.map((item, key) => (
                     <div
