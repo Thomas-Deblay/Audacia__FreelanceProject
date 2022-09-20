@@ -10,7 +10,7 @@ import Scrollspy from 'react-scrollspy';
 
 //import images
 import logoLight from '../assets/images/logoAudiaciaLight.png';
-import logoDark from '../assets/images/logoHome.png';
+import logoDark from '../assets/images/logoHome3.png';
 import { Link } from 'react-router-dom';
 
 const NavBar = ({ isDark }) => {
@@ -46,7 +46,7 @@ const NavBar = ({ isDark }) => {
           }
           id="navbar"
         >
-          <Container>
+          <Container style={{ paddingRight: '65px' }}>
             <Link className="navbar-brand logo text-uppercase" to="/">
               {isDark ? (
                 <>
@@ -54,7 +54,8 @@ const NavBar = ({ isDark }) => {
                     src={logoDark}
                     className="logo-light"
                     alt=""
-                    height="130"
+                    height="80"
+                    style={{ paddingTop: '10px' }}
                   />
                   <img
                     src={logoDark}
@@ -73,7 +74,7 @@ const NavBar = ({ isDark }) => {
                   />
                   <img
                     src={logoLight}
-                    className="logo-light"
+                    className="logo-light "
                     alt=""
                     height="40"
                   />
