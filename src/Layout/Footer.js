@@ -102,7 +102,7 @@ const Footer = () => {
                     <i className="mdi mdi-twitter text-white-50 float-start"></i>
                     <div className="flex-grow-1">
                       <p className="text-white-50 ps-3">
-                        Ouverture de votre campus le 9 janvier 2023
+                        Ouverture de votre campus début d'année 2023
                       </p>
                     </div>
                   </div>
