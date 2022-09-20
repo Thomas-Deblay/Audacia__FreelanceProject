@@ -46,7 +46,7 @@ const NavBar = ({ isDark }) => {
           }
           id="navbar"
         >
-          <Container>
+          <Container style={{ paddingRight: '65px' }}>
             <Link className="navbar-brand logo text-uppercase" to="/">
               {isDark ? (
                 <>

@@ -102,8 +102,8 @@ const Section = () => {
     dots: true,
     autoplay: true,
     autoplaySpeed: 5000,
-    prevArrow: <PreviousBtn />,
-    nextArrow: <NextBtn />,
+    // prevArrow: <PreviousBtn />,
+    // nextArrow: <NextBtn />,
     beforeChange: (current, next) => setImageIndex(next),
   };
 

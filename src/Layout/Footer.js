@@ -111,7 +111,7 @@ const Footer = () => {
                       <i className="mdi mdi-twitter text-white-50 float-start"></i>
                       <div className="flex-grow-1">
                         <p className="text-white-50 ps-3">
-                          Les inscriptions aux formations sont ouverte
+                          Les inscriptions aux formations sont ouvertes
                         </p>
                       </div>
                     </div>
