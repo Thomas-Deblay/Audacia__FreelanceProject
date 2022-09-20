@@ -54,7 +54,8 @@ const NavBar = ({ isDark }) => {
                     src={logoDark}
                     className="logo-light"
                     alt=""
-                    height="70"
+                    height="80"
+                    style={{ paddingTop: '10px' }}
                   />
                   <img
                     src={logoDark}
@@ -73,7 +74,7 @@ const NavBar = ({ isDark }) => {
                   />
                   <img
                     src={logoLight}
-                    className="logo-light"
+                    className="logo-light "
                     alt=""
                     height="40"
                   />
