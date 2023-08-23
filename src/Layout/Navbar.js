@@ -124,9 +124,15 @@ const NavBar = ({ isDark }) => {
                 <li className="nav-item">
                   <NavLink href="#contact">Contact</NavLink>
                 </li>
+                <li className="nav-item">
+                  <NavLink href="/entreprise">Entreprise</NavLink>
+                </li>
 
                 <li className="nav-item">
-                  <NavLink href="">
+                  <NavLink
+                    href="https://drive.google.com/file/d/1n37gyeAy-G851rp6oPG3pKlJIM_ChPpI/view?usp=sharing"
+                    target="_blank"
+                  >
                     {' '}
                     <strong className="brochureblue">
                       Télécharger la Brochure

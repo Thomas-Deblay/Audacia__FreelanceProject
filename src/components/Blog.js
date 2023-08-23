@@ -131,6 +131,25 @@ const BlogData = [
     name: 'Formateur',
     time: '105 heures',
   },
+  {
+    key: 'CleA',
+    imgsrc1: img7,
+    title: 'Socle de Connaissances & Compétences Clés',
+    subtitle: 'Accélérez votre retour à l’emploi ou évoluez en entreprise',
+    imgsrc2: img7,
+    name: 'Formateur',
+    time: '105 heures',
+  },
+  {
+    key: 'BachelorREESS',
+    imgsrc1: img7,
+    title:
+      'Bachelor Responsable d’établissement de l’Economie Sociale et Solidaire',
+    subtitle: 'Formation certifiante',
+    imgsrc2: img5,
+    name: 'Formateur',
+    time: '600 heures',
+  },
 ];
 
 const Blog = () => {

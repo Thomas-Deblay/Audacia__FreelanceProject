@@ -25,7 +25,7 @@ const BlogData = {
         icon3: ['Niveau de sortie de la formation', 'niveau 5'],
         icon4: ['Durée de la formation', '840heures'],
         icon5: ['Coût de la Formation', '7 900 euros'],
-        icon6: ['Prochaines sessions', 'janvier 2023'],
+        icon6: ['Prochaines sessions', 'Octobre 2023'],
 
         icon7: [
           'Accessibilité handicap',
@@ -55,7 +55,7 @@ const BlogData = {
         icon3: null,
         icon4: ['Durée de la formation', '70 heures'],
         icon5: ['Coût de la Formation', '3 150 euros'],
-        icon6: ['Prochaines sessions', 'Février2023'],
+        icon6: ['Prochaines sessions', 'Octobre 2023'],
         icon7: [
           'Accessibilité handicap',
           'Notre site répond aux conditions d’accessibilité',
@@ -83,7 +83,7 @@ const BlogData = {
         icon3: ['Niveau de sortie de la formation', 'niveau 6'],
         icon4: ['Durée de la formation', '800 heures'],
         icon5: ['Coût de la Formation', '9 900 euros'],
-        icon6: ['Prochaines sessions', 'janvier 2023'],
+        icon6: ['Prochaines sessions', 'Octobre 2023'],
 
         icon7: [
           'Accessibilité handicap',
@@ -110,9 +110,9 @@ const BlogData = {
         icon1: ['Type de formation', 'Stage en entreprise à l’étranger'],
         icon2: ['Filière', 'Langues étrangères'],
         icon3: null,
-        icon4: ['Durée de la formation', '1 année'],
+        icon4: ['Durée de la formation', '6 mois'],
         icon5: ['Coût de la Formation', 'Prise en charge ERASMUS'],
-        icon6: ['Prochaines sessions', 'Février2023'],
+        icon6: ['Prochaines sessions', 'Fin 2023'],
 
         icon7: [
           'Accessibilité handicap',
@@ -141,7 +141,7 @@ const BlogData = {
         icon3: ['Niveau de sortie de la formation', 'niveau 6'],
         icon4: ['Durée de la formation', '805 heures'],
         icon5: ['Coût de la Formation', '8 500 euros'],
-        icon6: ['Prochaines sessions', 'janvier 2023'],
+        icon6: ['Prochaines sessions', 'Octobre 2023'],
 
         icon7: [
           'Accessibilité handicap',
@@ -170,7 +170,7 @@ const BlogData = {
         icon3: null,
         icon4: ['Durée de la formation', '21 heures'],
         icon5: ['Coût de la Formation', '2 450 euros'],
-        icon6: ['Prochaines sessions', 'Février 2023'],
+        icon6: ['Prochaines sessions', 'Octobre 2023'],
 
         icon7: [
           'Accessibilité handicap',
@@ -197,9 +197,67 @@ const BlogData = {
         icon1: ['Type de formation', 'test'],
         icon2: ['Filière', 'Langues étrangères'],
         icon3: null,
-        icon4: ['Durée de la formation', '40 heures'],
-        icon5: ['Coût de la Formation', '3190 euros'],
-        icon6: ['Prochaines sessions', 'Février 2023'],
+        icon4: ['Durée de la formation', '105 heures'],
+        icon5: ['Coût de la Formation', '3150 euros'],
+        icon6: ['Prochaines sessions', 'Octobre 2023'],
+
+        icon7: [
+          'Accessibilité handicap',
+          'Notre site répond aux conditions d’accessibilité',
+        ],
+      },
+    },
+  },
+  CleA: {
+    key: 'CleA',
+
+    title: 'CléA',
+    subtitle: 'Socle de Connaissances & Compétences Clés',
+
+    name: 'Formateur',
+    time: '105 heures',
+    description: {
+      text: [
+        'Accélérez votre retour à l’emploi ou évoluez en entreprise !\n\n1. Avoir conscience des compétences que vous avez\n2. Faire reconnaître l’acquisition de vos compétences\n3. Valoriser vos compétences en donnant un nouvel élan à votre carrière professionnelle.',
+        'Demandeurs d’emploi, salariés.',
+        'salariés sans qualification',
+      ],
+      icon: {
+        icon1: ['Type de formation', 'RS 5080'],
+        icon2: ['Filière', "Remise a l'emploi"],
+        icon3: null,
+        icon4: ['Durée de la formation', '105 heures'],
+        icon5: ['Coût de la Formation', '3950 euros'],
+        icon6: ['Prochaines sessions', 'Octobre 2023'],
+
+        icon7: [
+          'Accessibilité handicap',
+          'Notre site répond aux conditions d’accessibilité',
+        ],
+      },
+    },
+  },
+  BachelorREESS: {
+    key: 'BachelorREESS',
+
+    title: 'Bachelor REESS',
+    subtitle: 'Formation certifiante',
+
+    name: 'Formateur',
+    time: '600 heures',
+    description: {
+      text: [
+        "Assurer la gestion et la direction d'association, de coopérative, de mutuelle, de fondation ou de toute structure inscrivant son action dans le cadre de l'intérêt général et de l'utilité sociale Assurer le management des ressources humaines, mettre en œuvre le projet d'établissement et tout projet d'activité, gérer les moyens économiques, financiers et logistiques. et contribuer à l'évolution des choix stratégiques et d'organisation.",
+        'demandeurs d’emploi, salariés, professionnel en reconversion.',
+        'Bac + 2 et /ou expérience professionnelle',
+      ],
+      icon: {
+        icon1: ['Type de formation', 'diplomante / certifiante RNCP 34305'],
+        icon2: ['Filière', 'gestion d’entreprise'],
+        icon3: null,
+        icon4: ['Durée de la formation', '600 heures'],
+        icon5: ['Coût de la Formation', '6900 euros'],
+        icon6: ['Prochaines sessions', 'Octobre 2023'],
 
         icon7: [
           'Accessibilité handicap',

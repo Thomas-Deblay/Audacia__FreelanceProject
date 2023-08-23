@@ -70,13 +70,13 @@ const NavBar = ({ isDark }) => {
                     src={logoDark}
                     className="logo-dark"
                     alt=""
-                    height="40"
+                    height="80"
                   />
                   <img
                     src={logoLight}
                     className="logo-light "
                     alt=""
-                    height="40"
+                    height="60"
                   />
                 </>
               )}
