@@ -125,7 +125,9 @@ const NavBar = ({ isDark }) => {
                   <NavLink href="#contact">Contact</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink href="/entreprise">Entreprise</NavLink>
+                  <Link to="/entreprise" className="navbar__link">
+                    Entreprise
+                  </Link>
                 </li>
 
                 <li className="nav-item">

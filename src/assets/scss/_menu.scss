@@ -15,7 +15,8 @@
   padding: 0;
   .navbar-nav {
     .nav-item {
-      .nav-link {
+      .nav-link,
+      .link {
         color: $dark;
         font-size: 15px;
         font-weight: 600;
@@ -31,7 +32,8 @@
       }
 
       &.active {
-        .nav-link {
+        .nav-link,
+        .link {
           color: $primary !important;
         }
       }
@@ -63,7 +65,8 @@
     margin-top: 0px;
     box-shadow: 0px 3px 10px 0px rgba($dark, 0.08);
     .nav-item {
-      .nav-link {
+      .nav-link,
+      .link {
         color: $dark;
         &:hover,
         &.active,
@@ -87,7 +90,8 @@
   &.navbar-light {
     .navbar-nav {
       .nav-item {
-        .nav-link {
+        .nav-link,
+        .link {
           color: $dark;
         }
       }
@@ -99,7 +103,8 @@
   .navbar {
     .navbar-nav {
       .nav-item {
-        .nav-link {
+        .nav-link,
+        .link {
           color: $white;
         }
       }
@@ -110,7 +115,8 @@
     &.navbar {
       background: $white;
       .nav-item {
-        .nav-link {
+        .nav-link,
+        .link {
           color: $dark;
         }
       }
@@ -130,5 +136,20 @@
         display: inline-block;
       }
     }
+  }
+}
+
+.navbar__link {
+  color: $dark !important ;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  background-color: transparent !important;
+  margin: 0 10px !important;
+  padding: 0 !important;
+  transition: all 0.3s ease !important;
+  &:hover,
+  &.active,
+  &:active {
+    color: $primary !important;
   }
 }
