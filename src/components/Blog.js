@@ -109,7 +109,7 @@ const BlogData = [
     key: 'managerdecentredeprofit',
     imgsrc1: img5,
     title: 'Développez vos compétences de Manager ',
-    subtitle: 'Titre professionnel niveau 6',
+    subtitle: 'Titre professionnel niveau 5',
     imgsrc2: img7,
     name: 'Formateur',
     time: '805 heures',
