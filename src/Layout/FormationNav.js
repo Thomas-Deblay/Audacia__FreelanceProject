@@ -11,9 +11,10 @@ import Scrollspy from 'react-scrollspy';
 //import images
 import logoLight from '../assets/images/logoAudiaciaLight.png';
 import logoDark from '../assets/images/logoHome3.png';
+import logoREESS from '../assets/images/LogoMFRMOIRANS.png';
 import { Link } from 'react-router-dom';
 
-const NavBar = ({ isDark }) => {
+const NavBar = ({ isDark, isFormationId }) => {
   const [isOpenMenu, setisOpenMenu] = useState(false);
   const [navClass, setnavClass] = useState('');
 
@@ -79,6 +80,27 @@ const NavBar = ({ isDark }) => {
                     height="60"
                   />
                 </>
+              )}
+            </Link>
+            <Link className="navbar-brand logo text-uppercase" to="/">
+              {isFormationId == 'directeurdetablissementecosociale' ? (
+                <>
+                  <img
+                    src={logoREESS}
+                    className="logo-light"
+                    alt=""
+                    height="80"
+                    style={{ paddingTop: '10px' }}
+                  />
+                  <img
+                    src={logoREESS}
+                    className="logo-dark"
+                    alt=""
+                    height="40"
+                  />
+                </>
+              ) : (
+                <></>
               )}
             </Link>
             <NavbarToggler

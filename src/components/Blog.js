@@ -10,6 +10,8 @@ import img4 from '../assets/images/blog/international.jpg';
 import img5 from '../assets/images/blog/managercentredeprofit.jpg';
 import img6 from '../assets/images/blog/financementeuro.jpg';
 import img7 from '../assets/images/blog/toeic.jpg';
+import img8 from '../assets/images/blog/socleconnaissance.jpg';
+import img9 from '../assets/images/blog/applicationdroitsocialindiv.png';
 
 // BlogCard
 
@@ -88,7 +90,7 @@ const BlogData = [
     key: 'directeurdetablissementecosociale',
     imgsrc1: img3,
     title:
-      "Devenez Responsable de structure de l'Economie Sociale er Solidaire ",
+      "Bachelor Responsable D'établissement de l'économie Sociale et Solidaire ",
     subtitle: 'Titre professionnel niveau 6',
     imgsrc2: img7,
     name: 'Formateur',
@@ -98,7 +100,7 @@ const BlogData = [
     key: 'International',
     imgsrc1: img4,
     title: 'Approfondissez vos compétences professionnelles grâce à Erasmus',
-    subtitle: 'Développez vos compétences grâce à Erasmus Pro',
+    subtitle: 'Développez vos compétences grâce à Erasmus',
     imgsrc2: img7,
     name: 'Formateur',
     time: '1 année',
@@ -133,7 +135,7 @@ const BlogData = [
   },
   {
     key: 'CleA',
-    imgsrc1: img7,
+    imgsrc1: img8,
     title: 'Socle de Connaissances & Compétences Clés',
     subtitle: 'Accélérez votre retour à l’emploi ou évoluez en entreprise',
     imgsrc2: img7,
@@ -141,14 +143,13 @@ const BlogData = [
     time: '105 heures',
   },
   {
-    key: 'BachelorREESS',
-    imgsrc1: img7,
-    title:
-      'Bachelor Responsable d’établissement de l’Economie Sociale et Solidaire',
-    subtitle: 'Formation certifiante',
+    key: 'Applicationdudroitsocialindividuel',
+    imgsrc1: img9,
+    title: 'Application du droit social individuel',
+    subtitle: "Disposer d'une méthode de recherche en droit du travail",
     imgsrc2: img5,
     name: 'Formateur',
-    time: '600 heures',
+    time: '42 heures',
   },
 ];
 

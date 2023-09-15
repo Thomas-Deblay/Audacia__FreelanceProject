@@ -29,17 +29,17 @@ const ContactData = [
   {
     title: 'Addresse',
     iconClass: 'mdi mdi-map-marker text-primary h4',
-    isChildItem: ['35 rue galliéni, 97 200 Fort de France'],
+    isChildItem: ['Martinique'],
   },
   {
     title: 'Telephone',
     iconClass: 'mdi mdi-phone text-primary h4',
-    isChildItem: ['Phone: 0696000000'],
+    isChildItem: ['Phone: +33686356249'],
   },
   {
     title: 'Contact',
     iconClass: 'mdi mdi-email text-primary h4',
-    isChildItem: ['www.audacia.com', 'mbl.audacia@gmail.com'],
+    isChildItem: ['www.audacia.com', 'info.audaciabs@gmail.com'],
   },
   {
     title: "Horaires d'Ouverture",
@@ -87,11 +87,18 @@ const Contact = () => {
           <Row className="mt-5 pt-2 justify-content-center">
             <Col lg={9}>
               <div className="custom-form">
+                {/* Real world form  */}
                 <Form
-                  action="https://formspree.io/f/xwkzloob"
+                  action="https://formspree.io/f/xbjvywzr"
                   method="POST"
                   name="ContactForm"
                 >
+                  {/* --TEST form 
+                <Form
+                  action="https://formspree.io/f/mbjvywyr"
+                  method="POST"
+                  name="ContactForm"
+                > */}
                   <p id="error-msg"></p>
                   <Row>
                     <Col lg={12}>

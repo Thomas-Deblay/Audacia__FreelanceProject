@@ -25,7 +25,7 @@ const BlogData = {
         icon3: ['Niveau de sortie de la formation', 'niveau 5'],
         icon4: ['Durée de la formation', '840heures'],
         icon5: ['Coût de la Formation', '7 900 euros'],
-        icon6: ['Prochaines sessions', 'Octobre 2023'],
+        icon6: ['Prochaines sessions', ' 2023'],
 
         icon7: [
           'Accessibilité handicap',
@@ -55,7 +55,7 @@ const BlogData = {
         icon3: null,
         icon4: ['Durée de la formation', '70 heures'],
         icon5: ['Coût de la Formation', '3 150 euros'],
-        icon6: ['Prochaines sessions', 'Octobre 2023'],
+        icon6: ['Prochaines sessions', ' 2023'],
         icon7: [
           'Accessibilité handicap',
           'Notre site répond aux conditions d’accessibilité',
@@ -66,7 +66,8 @@ const BlogData = {
   directeurdetablissementecosociale: {
     key: 'directeurdetablissementecosociale',
 
-    title: 'Directeur d’établissement de l’Economie Sociale',
+    title:
+      'Bachelor Responsable d’établissement de l’Economie Sociale et Solidaire',
     subtitle: 'Titre professionnel niveau 6',
 
     name: 'Formateur',
@@ -83,7 +84,7 @@ const BlogData = {
         icon3: ['Niveau de sortie de la formation', 'niveau 6'],
         icon4: ['Durée de la formation', '800 heures'],
         icon5: ['Coût de la Formation', '9 900 euros'],
-        icon6: ['Prochaines sessions', 'Octobre 2023'],
+        icon6: ['Prochaines sessions', ' 2023'],
 
         icon7: [
           'Accessibilité handicap',
@@ -96,7 +97,7 @@ const BlogData = {
     key: 'International',
 
     title: 'Mobilité Internationale',
-    subtitle: 'Développez vos compétences grâce à Erasmus Pro',
+    subtitle: 'Développez vos compétences grâce à Erasmus',
 
     name: 'Formateur',
     time: '105 heures',
@@ -112,7 +113,7 @@ const BlogData = {
         icon3: null,
         icon4: ['Durée de la formation', '6 mois'],
         icon5: ['Coût de la Formation', 'Prise en charge ERASMUS'],
-        icon6: ['Prochaines sessions', 'Fin 2023'],
+        icon6: ['Prochaines sessions', ' 2023'],
 
         icon7: [
           'Accessibilité handicap',
@@ -141,7 +142,7 @@ const BlogData = {
         icon3: ['Niveau de sortie de la formation', 'niveau 6'],
         icon4: ['Durée de la formation', '805 heures'],
         icon5: ['Coût de la Formation', '8 500 euros'],
-        icon6: ['Prochaines sessions', 'Octobre 2023'],
+        icon6: ['Prochaines sessions', ' 2023'],
 
         icon7: [
           'Accessibilité handicap',
@@ -170,7 +171,7 @@ const BlogData = {
         icon3: null,
         icon4: ['Durée de la formation', '21 heures'],
         icon5: ['Coût de la Formation', '2 450 euros'],
-        icon6: ['Prochaines sessions', 'Octobre 2023'],
+        icon6: ['Prochaines sessions', ' 2023'],
 
         icon7: [
           'Accessibilité handicap',
@@ -199,7 +200,7 @@ const BlogData = {
         icon3: null,
         icon4: ['Durée de la formation', '105 heures'],
         icon5: ['Coût de la Formation', '3150 euros'],
-        icon6: ['Prochaines sessions', 'Octobre 2023'],
+        icon6: ['Prochaines sessions', ' 2023'],
 
         icon7: [
           'Accessibilité handicap',
@@ -228,7 +229,7 @@ const BlogData = {
         icon3: null,
         icon4: ['Durée de la formation', '105 heures'],
         icon5: ['Coût de la Formation', '3950 euros'],
-        icon6: ['Prochaines sessions', 'Octobre 2023'],
+        icon6: ['Prochaines sessions', ' 2023'],
 
         icon7: [
           'Accessibilité handicap',
@@ -237,27 +238,27 @@ const BlogData = {
       },
     },
   },
-  BachelorREESS: {
-    key: 'BachelorREESS',
+  Applicationdudroitsocialindividuel: {
+    key: 'Applicationdudroitsocialindividuel',
 
-    title: 'Bachelor REESS',
+    title: 'Application du droit social individuel',
     subtitle: 'Formation certifiante',
 
     name: 'Formateur',
-    time: '600 heures',
+    time: '42 heures',
     description: {
       text: [
-        "Assurer la gestion et la direction d'association, de coopérative, de mutuelle, de fondation ou de toute structure inscrivant son action dans le cadre de l'intérêt général et de l'utilité sociale Assurer le management des ressources humaines, mettre en œuvre le projet d'établissement et tout projet d'activité, gérer les moyens économiques, financiers et logistiques. et contribuer à l'évolution des choix stratégiques et d'organisation.",
-        'demandeurs d’emploi, salariés, professionnel en reconversion.',
-        'Bac + 2 et /ou expérience professionnelle',
+        "• Disposer d'une méthode de recherche en droit du travail.\n• Choisir le contrat de travail adapté et gérer son exécution.\n• Appliquer et sécuriser les modes de rupture de contrat.\n• Limiter le risque prud'homal.",
+        'Salariés, demandeurs d’emploi',
+        'salariés sans qualification',
       ],
       icon: {
-        icon1: ['Type de formation', 'diplomante / certifiante RNCP 34305'],
+        icon1: ['Type de formation', 'Courte'],
         icon2: ['Filière', 'gestion d’entreprise'],
         icon3: null,
-        icon4: ['Durée de la formation', '600 heures'],
-        icon5: ['Coût de la Formation', '6900 euros'],
-        icon6: ['Prochaines sessions', 'Octobre 2023'],
+        icon4: ['Durée de la formation', '42 heures'],
+        icon5: ['Coût de la Formation', ''],
+        icon6: ['Prochaines sessions', ' 2023'],
 
         icon7: [
           'Accessibilité handicap',
@@ -283,11 +284,9 @@ function Formation() {
   //  }
   //}, [formationId])
 
-  console.log(BlogData[formationId].description);
-
   return (
     <React.Fragment>
-      <FormationNav isDark={true} />
+      <FormationNav isDark={true} isFormationId={BlogData[formationId].key} />
       <Section
         title={BlogData[formationId].title}
         subtitle={BlogData[formationId].subtitle}

@@ -12,7 +12,11 @@ const ListCard = (props) => {
           <ul className="list-unstyled footer-link mt-3 mb-0">
             {props.isChildList.map((Item, key) => (
               <li key={key}>
-                <NavLink href={`/#${Item.link}`}>{Item.subList}</NavLink>
+                {Item.link !== 'entreprise' ? (
+                  <NavLink href={`/#${Item.link}`}>{Item.subList}</NavLink>
+                ) : (
+                  <Link to="/entreprise">{Item.subList}</Link>
+                )}
               </li>
             ))}
           </ul>
@@ -32,6 +36,7 @@ const ListData = [
       { id: 2, subList: 'Nos Formations', link: 'Formations' },
       { id: 3, subList: 'A propos', link: 'Apropos' },
       { id: 4, subList: 'Contact', link: 'contact' },
+      { id: 5, subList: 'Entreprise', link: 'entreprise' },
     ],
   },
 ];
@@ -102,7 +107,7 @@ const Footer = () => {
                     <i className="mdi mdi-twitter text-white-50 float-start"></i>
                     <div className="flex-grow-1">
                       <p className="text-white-50 ps-3">
-                        Ouverture de votre campus début d'année 2023
+                        Ouverture de votre campus en 2023
                       </p>
                     </div>
                   </div>

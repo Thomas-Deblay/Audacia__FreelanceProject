@@ -132,7 +132,7 @@ const NavBar = ({ isDark }) => {
 
                 <li className="nav-item">
                   <NavLink
-                    href="https://drive.google.com/file/d/1n37gyeAy-G851rp6oPG3pKlJIM_ChPpI/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1rWjt7jDS6dIm9xiVynugW4xvY0Ny-T85/view?usp=sharing"
                     target="_blank"
                   >
                     {' '}

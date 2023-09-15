@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
 import Business from '../../assets/images/home/Business.mp4';
 import { Col, Container, Row, Button } from 'reactstrap';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 const Section = () => {
   const [isOpen, setOpen] = useState(false);
@@ -28,7 +28,14 @@ const Section = () => {
                 </h1>
 
                 <div className="mt-4">
-                  <Link to="#details" className="btn btn-primary mt-2">
+                  <Link
+                    to="details"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                    className="btn btn-primary mt-2"
+                  >
                     En savoir plus
                   </Link>
                 </div>

@@ -6,6 +6,9 @@ import Description from './Description';
 import Details from './Details';
 
 function Entreprise() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   //const [roomDetails, setRoomDetails] = useState(null);
 
   //useEffect(() => {
