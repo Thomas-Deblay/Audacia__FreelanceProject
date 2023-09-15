@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
 
-import mfr from '../../assets/images/LogoMFRMOIRANS.png';
+import mfr from '../../assets/images/LogoMFRMOIRAN_pageEntreprise.png';
 
 // BlogCard
 
@@ -11,12 +11,6 @@ const Description = () => {
       <section className="section ">
         <Container>
           <Row>
-            <Col lg={3}>
-              <div className="img">
-                <img src={mfr} className="img-fluid  " alt="" />
-              </div>
-            </Col>
-
             <Col lg={9}>
               <div className="counter-box">
                 <h4>
@@ -28,6 +22,11 @@ const Description = () => {
                   coopératives, fondations, dans la culture, l’insertion, la
                   formation professionnelle, etc...)
                 </p>
+              </div>
+            </Col>
+            <Col lg={3}>
+              <div className="img">
+                <img src={mfr} className="img-fluid  " alt="" />
               </div>
             </Col>
           </Row>
