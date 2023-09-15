@@ -13,21 +13,18 @@ const Description = () => {
           <Row>
             <Col lg={6}>
               <div className="img">
-                <img
-                  src={mfr}
-                  className="img-fluid box-shadow-lg rounded"
-                  alt=""
-                />
+                <img src={mfr} className="img-fluid  " alt="" />
               </div>
             </Col>
 
             <Col lg={6}>
               <div className="counter-box">
                 <h4>
+                  <br />
                   Titre Professionnel de niveau 6 (BAC +3/4), <br /> RNCP 34305
                 </h4>
                 <p className="text-muted mt-2">
-                  Les entreprises de l’économie sociale et solidaire sont
+                  <br /> Les entreprises de l’économie sociale et solidaire sont
                   organisées sous forme de : Associations, mutuelles,
                   coopératives, fondations, dans la culture, l’insertion, la
                   formation professionnelle, etc...)

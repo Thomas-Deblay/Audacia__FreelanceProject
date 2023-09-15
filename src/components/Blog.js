@@ -109,7 +109,7 @@ const BlogData = [
     key: 'managerdecentredeprofit',
     imgsrc1: img5,
     title: 'Développez vos compétences de Manager ',
-    subtitle: 'Apprenez à animer une structure économique',
+    subtitle: 'Titre professionnel niveau 6',
     imgsrc2: img7,
     name: 'Formateur',
     time: '805 heures',
