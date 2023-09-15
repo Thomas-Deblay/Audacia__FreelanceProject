@@ -1,12 +1,41 @@
 import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
 
+import mfr from '../../assets/images/LogoMFRMOIRAN_pageEntreprise.png';
+
 // BlogCard
 
 const Description = () => {
   return (
     <React.Fragment>
-      <section className="section " id="descriptionEntreprise">
+      <section className="section ">
+        <Container>
+          <Row>
+            <Col lg={6}>
+              <div className="img">
+                <img
+                  src={mfr}
+                  className="img-fluid box-shadow-lg rounded"
+                  alt=""
+                />
+              </div>
+            </Col>
+
+            <Col lg={6}>
+              <div className="counter-box">
+                <h4>Titre Professionnel de niveau 6 (BAC +3/4), RNCP 34305</h4>
+                <p className="text-muted mt-2">
+                  Les entreprises de l’économie sociale et solidaire sont
+                  organisées sous forme de : Associations, mutuelles,
+                  coopératives, fondations, dans la culture, l’insertion, la
+                  formation professionnelle, etc...)
+                </p>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      {/* <section className="section " id="descriptionEntreprise">
         <Container>
           <Row className="justify-content-center">
             <Col className="mb-5 " lg={7}>
@@ -23,7 +52,7 @@ const Description = () => {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section> */}
 
       <section className="section bg-light " id="descriptionEntreprise2">
         <Container>

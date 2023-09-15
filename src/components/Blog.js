@@ -149,7 +149,7 @@ const BlogData = [
     subtitle: "Disposer d'une méthode de recherche en droit du travail",
     imgsrc2: img5,
     name: 'Formateur',
-    time: '42 heures',
+    time: "jusqu'à 42 heures",
   },
 ];
 

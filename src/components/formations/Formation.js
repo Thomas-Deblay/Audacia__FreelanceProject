@@ -245,7 +245,7 @@ const BlogData = {
     subtitle: 'Formation certifiante',
 
     name: 'Formateur',
-    time: '42 heures',
+    time: '35 heures',
     description: {
       text: [
         "• Disposer d'une méthode de recherche en droit du travail.\n• Choisir le contrat de travail adapté et gérer son exécution.\n• Appliquer et sécuriser les modes de rupture de contrat.\n• Limiter le risque prud'homal.",
@@ -256,8 +256,8 @@ const BlogData = {
         icon1: ['Type de formation', 'Courte'],
         icon2: ['Filière', 'gestion d’entreprise'],
         icon3: null,
-        icon4: ['Durée de la formation', '42 heures'],
-        icon5: ['Coût de la Formation', ''],
+        icon4: ['Durée de la formation', '35 heures'],
+        icon5: ['Coût de la Formation', '3500 euros'],
         icon6: ['Prochaines sessions', ' 2023'],
 
         icon7: [
