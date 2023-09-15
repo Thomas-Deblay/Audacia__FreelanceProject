@@ -23,7 +23,9 @@ const Description = () => {
 
             <Col lg={6}>
               <div className="counter-box">
-                <h4>Titre Professionnel de niveau 6 (BAC +3/4), RNCP 34305</h4>
+                <h4>
+                  Titre Professionnel de niveau 6 (BAC +3/4), <br /> RNCP 34305
+                </h4>
                 <p className="text-muted mt-2">
                   Les entreprises de l’économie sociale et solidaire sont
                   organisées sous forme de : Associations, mutuelles,
