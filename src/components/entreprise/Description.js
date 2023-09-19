@@ -11,7 +11,7 @@ const Description = () => {
       <section className="section ">
         <Container>
           <Row>
-            <Col lg={11}>
+            <Col lg={10}>
               <div className="counter-box">
                 <h4>
                   Titre Professionnel de niveau 6 (BAC +3/4), <br /> RNCP 34305
@@ -24,7 +24,7 @@ const Description = () => {
                 </p>
               </div>
             </Col>
-            <Col lg={1}>
+            <Col lg={2}>
               <div className="img">
                 <img
                   src={mfr}
