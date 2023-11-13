@@ -172,9 +172,9 @@ const Section = () => {
         </ModalHeader>
         <ModalBody>
           {/* --Real world form  */}
-          <form action="https://formspree.io/f/mwkdbynd" method="POST">
-            {/* --TEST Form 
-          <form action="https://formspree.io/f/mbjvywyr" method="POST"> */}
+          {/* <form action="https://formspree.io/f/mwkdbynd" method="POST"> */}
+          {/* --TEST Form  */}
+          <form action="https://formspree.io/f/mbjvywyr" method="POST">
             <div className="Modal">
               <div className="mb-4 position-relative">
                 <label htmlFor="Nom" className="form-label">

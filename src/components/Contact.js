@@ -87,18 +87,18 @@ const Contact = () => {
           <Row className="mt-5 pt-2 justify-content-center">
             <Col lg={9}>
               <div className="custom-form">
-                {/* Real world form  */}
+                {/* Real world form 
                 <Form
                   action="https://formspree.io/f/xbjvywzr"
                   method="POST"
                   name="ContactForm"
                 >
-                  {/* --TEST form 
+                  {/* --TEST form  */}
                 <Form
                   action="https://formspree.io/f/mbjvywyr"
                   method="POST"
                   name="ContactForm"
-                > */}
+                >
                   <p id="error-msg"></p>
                   <Row>
                     <Col lg={12}>

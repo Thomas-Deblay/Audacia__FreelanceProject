@@ -71,7 +71,7 @@ const BlogData = {
     subtitle: 'Titre professionnel niveau 6',
 
     name: 'Formateur',
-    time: '105 heures',
+    time: '600 heures',
     description: {
       text: [
         "Assurer la gestion et la direction d'association, de coopérative, de mutuelle, de fondation ou de toute structure inscrivant son action dans le cadre de l'intérêt général et de l'utilité sociale\nAssurer le management des ressources humaines, mettre en œuvre le projet d'établissement et tout projet d'activité, gérer les moyens économiques, financiers et logistiques, et contribuer à l'évolution des choix stratégiques et d'organisation. ",
@@ -82,7 +82,7 @@ const BlogData = {
         icon1: ['Type de formation', 'diplômante, certifiante RNCP 15263'],
         icon2: ['Filière', 'gestion d’entreprise'],
         icon3: ['Niveau de sortie de la formation', 'niveau 6'],
-        icon4: ['Durée de la formation', '800 heures'],
+        icon4: ['Durée de la formation', '600 heures'],
         icon5: ['Coût de la Formation', '9 900 euros'],
         icon6: ['Prochaines sessions', ' 2023'],
 

@@ -94,7 +94,7 @@ const BlogData = [
     subtitle: 'Titre professionnel niveau 6',
     imgsrc2: img7,
     name: 'Formateur',
-    time: '800 heures',
+    time: '600 heures',
   },
   {
     key: 'International',
