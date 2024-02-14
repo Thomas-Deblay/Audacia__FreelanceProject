@@ -164,6 +164,8 @@ const BlogData = {
         'Comprendre la politique de cohésion économique, sociale et territoriale de l’Union Européenne, ses instruments financiers, sa mise en œuvre en Martinique\nConnaitre les étapes du montage de projet européen et savoir rédiger une demande de subvention - FSE / FEDER\nConnaître les étapes du montage de projet Européen (suite) et ses outils de suivi - FSE / FEDER ',
         'Demandeurs d’emploi, salariés.',
         'Notions de gestion d’entreprise, comptabilité',
+        'Présentiel ou hybride',
+        'QCM et / ou étude de cas',
       ],
       icon: {
         icon1: ['Type de formation', 'Non diplômante'],

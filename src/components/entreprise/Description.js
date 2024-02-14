@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
 
-import mfr from '../../assets/images/LogoMFRMOIRAN_pageEntreprise.png';
+import mfr from '../../assets/images/LogoQualiopiActionsdeFormation.png';
 
 // BlogCard
 
@@ -26,11 +26,17 @@ const Description = () => {
             </Col>
             <Col lg={2}>
               <div className="img">
-                <img
-                  src={mfr}
-                  className="img-fluid entreprise__logomfr "
-                  alt=""
-                />
+                <a
+                  href="https://drive.google.com/file/d/1L7oDMPMqIxdQNXLvVvLO5cyyFQ_wC55K/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={mfr}
+                    className="img-fluid entreprise__logoLogoQualiopiActionsdeFormation "
+                    alt=""
+                  />
+                </a>
               </div>
             </Col>
           </Row>

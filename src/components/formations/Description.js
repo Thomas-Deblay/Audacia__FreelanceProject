@@ -34,6 +34,18 @@ const Description = ({ text, icon }) => {
                   <h6>Pré requis</h6>
                   <p className="title-desc text-muted mt-3">{text[2]}</p>
                 </div>
+                {text[3] && (
+                  <div className="descriptiontext">
+                    <h6>Modalités pédagogiques</h6>
+                    <p className="title-desc text-muted mt-3">{text[3]}</p>
+                  </div>
+                )}
+                {text[4] && (
+                  <div className="descriptiontext">
+                    <h6>QCM et / ou étude de cas</h6>
+                    <p className="title-desc text-muted mt-3">{text[4]}</p>
+                  </div>
+                )}
               </div>
             </Col>
             <Col lg={4}>

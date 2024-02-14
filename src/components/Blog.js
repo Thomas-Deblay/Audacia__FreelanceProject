@@ -13,6 +13,8 @@ import img7 from '../assets/images/blog/toeic.jpg';
 import img8 from '../assets/images/blog/socleconnaissance.jpg';
 import img9 from '../assets/images/blog/applicationdroitsocialindiv.png';
 
+import mfr from '../assets/images/LogoQualiopiActionsdeFormation.png';
+
 // BlogCard
 
 const BlogCard = (props) => {
@@ -168,7 +170,23 @@ const Blog = () => {
               </div>
             </Col>
           </Row>
-
+          <Row className="justify-content-center">
+            <Col lg={2}>
+              <div className="img">
+                <a
+                  href="https://drive.google.com/file/d/1L7oDMPMqIxdQNXLvVvLO5cyyFQ_wC55K/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={mfr}
+                    className="img-fluid entreprise__logomfr "
+                    alt="Logo Qualiopi Actions de Formation"
+                  />
+                </a>
+              </div>
+            </Col>
+          </Row>
           <Row>
             {/* Blog Component Start*/}
 
