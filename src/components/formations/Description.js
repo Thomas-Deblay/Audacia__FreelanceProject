@@ -42,7 +42,7 @@ const Description = ({ text, icon }) => {
                 )}
                 {text[4] && (
                   <div className="descriptiontext">
-                    <h6>QCM et / ou étude de cas</h6>
+                    <h6>Modalités d'évaluation </h6>
                     <p className="title-desc text-muted mt-3">{text[4]}</p>
                   </div>
                 )}
