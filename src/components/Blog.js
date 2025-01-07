@@ -105,7 +105,7 @@ const BlogData = [
     subtitle: 'Développez vos compétences grâce à Erasmus',
     imgsrc2: img7,
     name: 'Formateur',
-    time: '1 année',
+    time: 'jusquà 6 mois',
   },
   {
     key: 'managerdecentredeprofit',
@@ -121,7 +121,7 @@ const BlogData = [
     imgsrc1: img6,
     title: 'Obtenez des financements Européens',
     subtitle:
-      'Apprenez à construire et suivre vos projets Européens (FSE,FEDER...)',
+      'Apprenez à construire et suivre vos projets Européens (FEDER, FSE+, EUROPE CRÉATIVE)',
     imgsrc2: img7,
     name: 'Formateur',
     time: '21 heures',

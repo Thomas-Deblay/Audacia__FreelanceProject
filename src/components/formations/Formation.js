@@ -97,13 +97,13 @@ const BlogData = {
     key: 'International',
 
     title: 'Mobilité Internationale',
-    subtitle: 'Développez vos compétences grâce à Erasmus',
+    subtitle: 'Développez vos compétences grâce au dispositif ERASMUS',
 
     name: 'Formateur',
     time: '105 heures',
     description: {
       text: [
-        'Permettre à nos étudiants d’approfondir leurs compétences professionnelles et linguistiques au sein d’entreprises étrangères, par la mobilité Européenne ou internationale, grâce au programme ERASMUS. ',
+        'Permettre à nos étudiants d’approfondir leurs compétences professionnelles et linguistiques au sein d’entreprises étrangères, par la mobilité Européenne ou internationale, grâce au dispositif ERASMUS. ',
         'Les Etudiants diplômés d’AUDACIA BUSINESS SCHOOL ou d’autres écoles.',
         '- Pas de prérequis pour nos étudiants diplômés\n- Recrutement sur dossiers et entretiens pour les étudiants extérieurs',
       ],
@@ -113,8 +113,6 @@ const BlogData = {
         icon3: null,
         icon4: ['Durée de la formation', '6 mois'],
         icon5: ['Coût de la Formation', 'Prise en charge ERASMUS'],
-        icon6: ['Prochaines sessions', ' 2023'],
-
         icon7: [
           'Accessibilité handicap',
           'Notre site répond aux conditions d’accessibilité',
@@ -161,7 +159,7 @@ const BlogData = {
     time: '105 heures',
     description: {
       text: [
-        'Comprendre la politique de cohésion économique, sociale et territoriale de l’Union Européenne, ses instruments financiers, sa mise en œuvre en Martinique\nConnaitre les étapes du montage de projet européen et savoir rédiger une demande de subvention - FSE / FEDER\nConnaître les étapes du montage de projet Européen (suite) et ses outils de suivi - FSE / FEDER ',
+        'Comprendre la politique de cohésion économique, sociale et territoriale de l’Union Européenne, ses instruments financiers, sa mise en œuvre en Martinique\nConnaitre les étapes du montage de projet européen et savoir rédiger une demande de subvention - FEDER/FSE+ ou EUROPE CRÉATIVE\nConnaître les étapes du montage de projet Européen (suite) et ses outils de suivi - FEDER/FSE+ ou EUROPE CRÉATIVE ',
         'Demandeurs d’emploi, salariés.',
         'Notions de gestion d’entreprise, comptabilité',
         'Présentiel ou hybride',
