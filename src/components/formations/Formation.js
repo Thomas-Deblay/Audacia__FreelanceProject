@@ -25,7 +25,7 @@ const BlogData = {
         icon3: ['Niveau de sortie de la formation', 'niveau 5'],
         icon4: ['Durée de la formation', '840heures'],
         icon5: ['Coût de la Formation', '7 900 euros'],
-        icon6: ['Prochaines sessions', ' 2023'],
+        icon6: ['Prochaines sessions', ''],
 
         icon7: [
           'Accessibilité handicap',
@@ -55,7 +55,7 @@ const BlogData = {
         icon3: null,
         icon4: ['Durée de la formation', '70 heures'],
         icon5: ['Coût de la Formation', '3 150 euros'],
-        icon6: ['Prochaines sessions', ' 2023'],
+        icon6: ['Prochaines sessions', ''],
         icon7: [
           'Accessibilité handicap',
           'Notre site répond aux conditions d’accessibilité',
@@ -84,7 +84,7 @@ const BlogData = {
         icon3: ['Niveau de sortie de la formation', 'niveau 6'],
         icon4: ['Durée de la formation', '600 heures'],
         icon5: ['Coût de la Formation', '9 900 euros'],
-        icon6: ['Prochaines sessions', ' 2023'],
+        icon6: ['Prochaines sessions', ''],
 
         icon7: [
           'Accessibilité handicap',
@@ -113,6 +113,7 @@ const BlogData = {
         icon3: null,
         icon4: ['Durée de la formation', '6 mois'],
         icon5: ['Coût de la Formation', 'Prise en charge ERASMUS'],
+        icon6: ['Prochaines sessions', ''],
         icon7: [
           'Accessibilité handicap',
           'Notre site répond aux conditions d’accessibilité',
@@ -140,7 +141,7 @@ const BlogData = {
         icon3: ['Niveau de sortie de la formation', 'niveau 6'],
         icon4: ['Durée de la formation', '805 heures'],
         icon5: ['Coût de la Formation', '8 500 euros'],
-        icon6: ['Prochaines sessions', ' 2023'],
+        icon6: ['Prochaines sessions', ''],
 
         icon7: [
           'Accessibilité handicap',
@@ -167,11 +168,11 @@ const BlogData = {
       ],
       icon: {
         icon1: ['Type de formation', 'Non diplômante'],
-        icon2: ['Filière', 'gestion d’entreprise'],
+        icon2: ['Filière', 'gestion de projet'],
         icon3: null,
         icon4: ['Durée de la formation', '21 heures'],
         icon5: ['Coût de la Formation', '2 450 euros'],
-        icon6: ['Prochaines sessions', ' 2023'],
+        icon6: ['Prochaines sessions', ''],
 
         icon7: [
           'Accessibilité handicap',
@@ -200,7 +201,7 @@ const BlogData = {
         icon3: null,
         icon4: ['Durée de la formation', '105 heures'],
         icon5: ['Coût de la Formation', '3150 euros'],
-        icon6: ['Prochaines sessions', ' 2023'],
+        icon6: ['Prochaines sessions', ''],
 
         icon7: [
           'Accessibilité handicap',
@@ -229,7 +230,7 @@ const BlogData = {
         icon3: null,
         icon4: ['Durée de la formation', '105 heures'],
         icon5: ['Coût de la Formation', '3950 euros'],
-        icon6: ['Prochaines sessions', ' 2023'],
+        icon6: ['Prochaines sessions', ''],
 
         icon7: [
           'Accessibilité handicap',
@@ -258,7 +259,7 @@ const BlogData = {
         icon3: null,
         icon4: ['Durée de la formation', '35 heures'],
         icon5: ['Coût de la Formation', '3500 euros'],
-        icon6: ['Prochaines sessions', ' 2023'],
+        icon6: ['Prochaines sessions', ''],
 
         icon7: [
           'Accessibilité handicap',
