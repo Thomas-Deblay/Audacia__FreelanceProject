@@ -15,6 +15,8 @@ import img9 from '../assets/images/blog/applicationdroitsocialindiv.png';
 
 import mfr from '../assets/images/LogoQualiopiActionsdeFormation.png';
 
+import certificate from '../assets/images/home/qualipo-certificate.png';
+
 // BlogCard
 
 const BlogCard = (props) => {
@@ -222,7 +224,7 @@ const Blog = () => {
           <Row className="align-items-center g-3 g-lg-0">
             <Col className="about-img" lg={8}>
               <img
-                src={about}
+                src={certificate}
                 className="img-fluid rounded box-shadow"
                 alt=""
               />

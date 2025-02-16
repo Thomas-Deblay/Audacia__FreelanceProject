@@ -1,6 +1,6 @@
 import React from 'react';
 
-import about from '../assets/images/home/qualipo-certificate.png';
+import certificate from '../assets/images/home/qualipo-certificate.png';
 import { Container, Row, Col } from 'reactstrap';
 
 const SkillCard = (props) => {
@@ -60,7 +60,7 @@ const About = () => {
           <Row className="align-items-center g-3 g-lg-0">
             <Col className="about-img" lg={8}>
               <img
-                src={about}
+                src={certificate}
                 className="img-fluid rounded box-shadow"
                 alt=""
               />
