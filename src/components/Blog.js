@@ -207,6 +207,29 @@ const Blog = () => {
           </Row>
         </Container>
       </section>
+      <section className="section bg-light" id="Certificate">
+        <Container>
+          <Row className="justify-content-center">
+            <Col lg={7}>
+              <div className="header-title text-center mb-5">
+                <p className="text-uppercase text-muted mb-2">Certificate</p>
+                <h1>Qualipo</h1>
+                <div className="title-border mt-3"></div>
+                <p className="title-desc text-muted mt-3"></p>
+              </div>
+            </Col>
+          </Row>
+          <Row className="align-items-center g-3 g-lg-0">
+            <Col className="about-img" lg={8}>
+              <img
+                src={about}
+                className="img-fluid rounded box-shadow"
+                alt=""
+              />
+            </Col>
+          </Row>
+        </Container>
+      </section>
     </React.Fragment>
   );
 };
