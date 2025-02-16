@@ -8,6 +8,7 @@ import Counter from '../components/Counter';
 import CTA from '../components/CTA';
 import Footer from '../Layout/Footer';
 import FooterAlt from '../Layout/FooterAlt';
+import FooterAlt from '../Layout/Certificate';
 
 import Process from '../components/Process';
 
@@ -19,6 +20,8 @@ const Layout = () => {
       <Layout6 />
       {/* <Services />*/}
       <Blog />
+
+      <Certificate />
       <Process />
       <About />
       {/* <Counter /> */}
