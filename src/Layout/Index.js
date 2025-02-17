@@ -8,7 +8,7 @@ import Counter from '../components/Counter';
 import CTA from '../components/CTA';
 import Footer from '../Layout/Footer';
 import FooterAlt from '../Layout/FooterAlt';
-import Certificate from '../Layout/Certificate';
+import Certificate from '../components/Certificate';
 
 import Process from '../components/Process';
 
