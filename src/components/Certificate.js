@@ -51,13 +51,13 @@ const Certificate = () => {
             <Col lg={11}>
               <div className="header-title text-center mb-5">
                 <p className="text-uppercase text-muted mb-2">Qualiopi</p>
-                <h1>Certificate </h1>
+                <h1>Certification </h1>
                 <div className="title-border mt-3"></div>
                 <p className="title-desc text-muted mt-3"></p>
               </div>
             </Col>
           </Row>
-          <Row className="align-items-center g-3 g-lg-0">
+          <Row className="justify-content-center">
             <Col className="about-img" lg={8}>
               <img
                 src={certificate}
