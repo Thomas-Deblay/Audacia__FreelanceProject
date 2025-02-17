@@ -58,7 +58,7 @@ const Certificate = () => {
             </Col>
           </Row>
           <Row className="justify-content-center">
-            <Col className="about-img" lg={8}>
+            <Col className="about-img" lg={11}>
               <img
                 src={certificate}
                 className="img-fluid rounded box-shadow"
