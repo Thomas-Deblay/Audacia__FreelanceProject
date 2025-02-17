@@ -48,10 +48,10 @@ const Certificate = () => {
       <section className="section bg-light" id="Certificate">
         <Container>
           <Row className="justify-content-center">
-            <Col lg={7}>
+            <Col lg={11}>
               <div className="header-title text-center mb-5">
-                <p className="text-uppercase text-muted mb-2">Certificate</p>
-                <h1>Qualipo</h1>
+                <p className="text-uppercase text-muted mb-2">Qualiopi</p>
+                <h1>Certificate </h1>
                 <div className="title-border mt-3"></div>
                 <p className="title-desc text-muted mt-3"></p>
               </div>
