@@ -42,7 +42,7 @@ const SkillData = [
   },
 ];
 
-const About = () => {
+const Certificate = () => {
   return (
     <React.Fragment>
       <section className="section bg-light" id="Certificate">
