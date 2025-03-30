@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom';
 import FormationNav from '../../Layout/FormationNav';
 import Section from './Section';
 import Description from './Description';
+import SectionErasmus from './Erasmus/SectionErasmus';
+import DescriptionErasmus from './Erasmus/DescriptionErasmus';
 
 const BlogData = {
   Assistantressrouceshumaine: {
@@ -288,14 +290,30 @@ function Formation() {
   return (
     <React.Fragment>
       <FormationNav isDark={true} isFormationId={BlogData[formationId].key} />
-      <Section
-        title={BlogData[formationId].title}
-        subtitle={BlogData[formationId].subtitle}
-      />
-      <Description
-        text={BlogData[formationId].description.text}
-        icon={BlogData[formationId].description.icon}
-      />
+
+      {formationId === 'International' ? (
+        <SectionErasmus
+          title="THIS IS A TEST FOR SECTION ERASMUS"
+          subtitle={BlogData[formationId].subtitle}
+        />
+      ) : (
+        <Section
+          title={BlogData[formationId].title}
+          subtitle={BlogData[formationId].subtitle}
+        />
+      )}
+
+      {formationId === 'International' ? (
+        <DescriptionErasmus
+          text={BlogData[formationId].description.text}
+          icon={BlogData[formationId].description.icon}
+        />
+      ) : (
+        <Description
+          text={BlogData[formationId].description.text}
+          icon={BlogData[formationId].description.icon}
+        />
+      )}
     </React.Fragment>
   );
 }

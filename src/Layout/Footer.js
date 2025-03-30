@@ -1,5 +1,6 @@
 import React from 'react';
 import logolight from '../assets/images/logoAudiaciaLight.png';
+import logoctm from '../assets/images/logoctm.png';
 import { Col, Container, Row, NavLink } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
@@ -70,6 +71,10 @@ const Footer = () => {
                 <p className="text-white-50 mt-3 pt-2 mb-0 ">
                   "A joint commitment to success"
                 </p>
+                <Link to="/">
+                  <br />
+                  <img src={logoctm} alt="" height="150" />
+                </Link>
                 {/* <div className="mt-4">
                   <ul className="list-inline footer-social">
                 
@@ -107,7 +112,7 @@ const Footer = () => {
                     <i className="mdi mdi-twitter text-white-50 float-start"></i>
                     <div className="flex-grow-1">
                       <p className="text-white-50 ps-3">
-                        Ouverture de votre campus en 2023
+                        Programme Erasmus+ en Sardaigne en 2025
                       </p>
                     </div>
                   </div>

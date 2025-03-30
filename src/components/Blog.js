@@ -99,15 +99,6 @@ const BlogData = [
     time: '600 heures',
   },
   {
-    key: 'International',
-    imgsrc1: img4,
-    title: 'Approfondissez vos compétences professionnelles grâce à Erasmus',
-    subtitle: 'Développez vos compétences grâce à Erasmus',
-    imgsrc2: img7,
-    name: 'Formateur',
-    time: 'jusquà 6 mois',
-  },
-  {
     key: 'managerdecentredeprofit',
     imgsrc1: img5,
     title: 'Développez vos compétences de Manager ',
@@ -155,6 +146,16 @@ const BlogData = [
   },
 ];
 
+const Erasmus = {
+  key: 'International',
+  imgsrc1: img4,
+  title: 'Action KA1 VET mobilité Erasmus Pro - "Fées"',
+  subtitle: 'Séjour entièrement pris en charge en Italie en 2025',
+  imgsrc2: img7,
+  name: 'Formateur',
+  time: '5 mois',
+};
+
 const Blog = () => {
   return (
     <React.Fragment>
@@ -189,6 +190,22 @@ const Blog = () => {
           </Row>
           <Row>
             {/* Blog Component Start*/}
+            {/* =============
+            ERASMUS EUROPEAN BLOG CARD FIRST 
+            ====================*/}
+            <BlogCard
+              link={Erasmus.key}
+              imgsrc={Erasmus.imgsrc1}
+              title={Erasmus.title}
+              subtitle={Erasmus.subtitle}
+              imgsrc2={Erasmus.imgsrc2}
+              name={Erasmus.name}
+              time={Erasmus.time}
+            />
+
+            {/* =============
+            ------- All other blog cards ---------
+            ====================*/}
 
             {BlogData.map((value, idx) => (
               <BlogCard
