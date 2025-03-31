@@ -106,23 +106,24 @@ const Footer = () => {
 
             <Col lg={6}>
               <div className="mt-4 footer__actualite">
-                <h6 className="text-white text-uppercase fs-16">Actualite</h6>
+                <h6 className="text-white text-uppercase fs-16">Réseau</h6>
                 <div className="mt-3 mb-0">
                   <div className="d-flex">
-                    <i className="mdi mdi-twitter text-white-50 float-start"></i>
                     <div className="flex-grow-1">
-                      <p className="text-white-50 ps-3">
-                        Programme Erasmus+ en Sardaigne en 2025
-                      </p>
+                      <p className="text-white-50 ps-3">Philia Caraïbe-Monde</p>
                     </div>
                   </div>
                   <div className="mt-2">
                     <div className="d-flex">
-                      <i className="mdi mdi-twitter text-white-50 float-start"></i>
                       <div className="flex-grow-1">
-                        <p className="text-white-50 ps-3">
-                          Les inscriptions aux formations sont ouvertes
-                        </p>
+                        <p className="text-white-50 ps-3">MV International</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="mt-2">
+                    <div className="d-flex">
+                      <div className="flex-grow-1">
+                        <p className="text-white-50 ps-3">Mine Vaganti NGO</p>
                       </div>
                     </div>
                   </div>
