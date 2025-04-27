@@ -149,11 +149,11 @@ const BlogData = [
 const Erasmus = {
   key: 'International',
   imgsrc1: img4,
-  title: 'Action KA1 VET mobilité Erasmus Pro - "Fées"',
+  title: 'Action KA122- VET- Projet de Mobilité courte durée Italie',
   subtitle: 'Séjour entièrement pris en charge en Italie en 2025',
   imgsrc2: img7,
   name: 'Formateur',
-  time: '5 mois',
+  time: '4 mois',
 };
 
 const Blog = () => {
